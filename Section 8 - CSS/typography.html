@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <!-- THREE TYPES OF SELECTOR ::: TAG - SELECT ELEMENT, SPAN CLASS - CAN BE USED MULTIPLE TIMES, ID - CAN ONLY BE USED ONCE ON A PAGE -->
+        <title>Typography</title>
+        <style>
+            h1{
+                color:#c3210a;
+                font-family: verdana, arial, sans-serif;
+                font-size: 3em;
+                font-variant: small-caps;
+            }
+            
+            p {
+                font-family:times,arial, sans-serif;
+                font-size: .9em;
+                line-height: 20px;
+            }
+            
+            span {
+                font-weight: bold;
+            }
+            
+            .emphasize {
+                color:red;
+                font-style: italic;
+                font-weight: bold;
+            }
+            
+            #open {
+                border: 2px solid #0000cc;
+                padding: 5px;
+            }
+            
+            .emphasize,h1 {
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="open">
+      <h1>Cheese Graters</h1>
+        <p>Several types of graters feature different sizes of grating slots, and can therefore aid in the <span class="emphasize">preparation of a variety of foods.</span> They are commonly used to grate cheese and lemon or orange peel (to create zest), and can also be used to grate other soft foods. They are commonly used in the preparation of toasted cheese, <span>Welsh rarebit</span>, and dishes which contain cheese sauce such as macaroni and cheese, cauliflower cheese.</p></div>
+    </body>   
+</html>

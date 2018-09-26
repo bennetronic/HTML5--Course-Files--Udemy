@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            #bio {
+                width:300px;
+                height:200px
+            }
+            label {
+                color:red;
+                font-weight:bold;
+            }
+        </style>
+     </head>
+    <body>
+        <form action"#" method="post">
+            <label for="first">First</label>
+            <input type="text" id="first" name="first" required="required" /><br/>
+            <label for="last">Last</label>
+            <input type="text" id="last" name="last" maxlength="25" autocomplete="off" /><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" /><br/>
+            <input type="phone" id="phone" name="phone" placeholder="phone number" /><br/>
+            <label for"bio">Biography</label><br/>
+            <textarea id="bio">Type your bio here</textarea>
+            <input id="bands" placeholder="band names" list="mybands" />
+            <datalist id="mybands">
+                <option value="journey" />
+                <option value="reo speedwagon" />
+                <option value="styx" />
+                <option value="heart" />
+            </datalist><br/>
+            <label id="bands">Bands you like</label><br/>
+            <input type="checkbox" name"bands" value="journey">Journey<br/>
+            <input type="checkbox" name"bands" value="reo">reo<br/>
+            <input type="checkbox" name"bands" value="foreigner">foreigner<br/>
+            <input type="checkbox" name"bands" value="tits">tits<br/>
+            <label id="gender">Gender</label><br/>
+            <input type="radio" name="gender" value="male" checked="checked">Male<br/>
+            <input type="radio" name="gender" value="female">Female<br/>
+            <input type="radio" name="gender" value="other">Other<br/>
+            <label id="state">State</label>
+            <select id="state" name="state" size="4" multiple="multiple">
+                <option value="alabama">Alabama</option>
+                <option value="kansas">kansas</option>
+                <option value="new york">new york</option>
+                <option value="chicago">chicago</option>
+            </select><br/>
+           <button type="submit">Submit this shit</button>
+            <button type="reset">Reset this shit</button>
+            
+        </form>
+    </body>   
+</html>

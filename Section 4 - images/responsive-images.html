@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Images</title>
+        <style>
+            img {
+                max-width:50%;
+                height:auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Images of stuff and shit</h1>
+        <p><a href="http://google.com"><img src="images/download.jpg" alt="image 1" /></a><br/>Big beach</p>
+        
+        <picture>
+            <source srcset="images/download-3.jpg" media="(max-width:400px)">
+            <source srcset="images/download-4.jpg>
+        </picture>
+        
+        
+        <p><a href="http://google.com" target="_self"><img src="images/download-1.jpg" alt="image 2" /></a><br/>Saplings</p>
+        <p><img src="images/download-2.jpg" alt="image 3" /><br/>Blue rose</p>
+        <p><img src="images/download-3.jpg" alt="image 4" /><br/>Traintrack</p>
+    </body>   
+</html>

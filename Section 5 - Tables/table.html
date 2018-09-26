@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table
+            {
+                
+                width:100%;
+            }
+            table, tr, td, th
+            {
+                border:2px solid black;
+                border-collapse:collapse;
+            }
+            th
+            {
+                
+                background-color:black;
+                color:white;
+            }
+            caption {
+                color:red;
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Mark's song rating table</caption>
+            <tr>
+                <th width="50%">Song</th><th>Artist</th><th>Rating</th>
+            </tr>
+            <tr>
+                <td>Faithfully</td><td>Journey</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Keep on loving you<td rowspan="2">REO speedwagon</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Keep on hating you</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>surrender</td><td>cheap trick</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>plainsong</td><td>The cure</td><td>*****</td>
+            </tr>
+        </table>
+    </body>   
+</html>
